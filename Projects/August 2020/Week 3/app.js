@@ -54,3 +54,10 @@ let tugas1 = "Semangat semua, " + sapa + " Sekarang Hari " + tanggal + " Semoga 
 // 1. buat 6 variable bernama "operand1", "operand2", "operand3", "operator1", "operator2", "equal" 
 // 2. Untuk operator1 gunakan kali(x), untuk operator2 gunakan kurang (-), sedangkan untuk equal bernilai sama dengan (=)
 // 3. outputkan ke 6 variable diatas dengan format operand1 * operand3 - operand2 = hasilnya tanpa menambahkan"STRING" didalamnya
+let operand1 = 10;
+let operand2 = 5;
+let operand3 = 5;
+let operator1 = '*';
+let operator2 = '-';
+let equal = '=';
+console.log(`${operand1} ${operator1} ${operand3} ${operator2} ${operand2} ${equal} ${operand1 * operand3 - operand2}`);
